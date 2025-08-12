@@ -43,7 +43,7 @@ def auto_trim_video(input_path, output_path, keywords):
     print(f"剪辑完成，文件保存到: {output_path}")
 
 if __name__ == "__main__":
-    input_video = "sample.mp4"        # 本地视频文件路径
-    output_video = "highlight.mp4"    # 剪辑后输出路径
+    input_video = "../mp4/sample.mp4"        # 本地视频文件路径
+    output_video = "../mp4_res/highlight.mp4"    # 剪辑后输出路径
 
     auto_trim_video(input_video, output_video, KEYWORDS)

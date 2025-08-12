@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	videoPath := "sample.mp4" // 你要上传的视频
+	videoPath := "../mp4/sample.mp4" // 你要上传的视频
 
 	// 调用 Python AI 剪辑服务
 	url := "http://localhost:8001/process_video/"
